@@ -13,7 +13,7 @@ Contents: A seminar for Music majors
 
 
 What are We Learning?
-=====================
+---------------------
 
 * Python 3
 * Basic Programming
@@ -21,7 +21,7 @@ What are We Learning?
 
 
 But Why?
-========
+--------
 
 * Programming is used in every field
 * Understanding fundementals helps understand complexity
@@ -30,7 +30,7 @@ But Why?
 
 
 Boring Terminology
-==================
+------------------
 
 * Variables
 * Operators
@@ -41,7 +41,7 @@ Boring Terminology
 
 
 So What is Python?
-==================
+------------------
 
 Python is a scripting language, and is very simple, which makes it a good learning tool.
 
@@ -49,7 +49,7 @@ Let's look at some examples!
 
 
 Hello, World!
-=============
+-------------
 
 The simplest program. Put the following code in a file, then run with python:
 
@@ -57,13 +57,13 @@ The simplest program. Put the following code in a file, then run with python:
 
 
 Yassss!
-=======
+-------
 
 You just made your first program!
 
 
 Homework
-========
+--------
 
 Write a Python program that takes the amount of coupons won as input and outputs
 how many candy bars and gumballs you can get. 10 coupons for a candy bar and. 3 coupons for a gumball. You prefer candy bars to gumballs, so you buy as many candy bars as you can first. Output how many candy bars and gumballs you get.

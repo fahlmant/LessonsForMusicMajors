@@ -299,7 +299,7 @@ extensions += [
 ]
 
 slide_title = 'Programming in Python Made Easy'
-slide_theme = 'slides'
+slide_theme = 'single-level'
 slide_levels = 3
 
 # Place custom static assets in the _static directory and uncomment
