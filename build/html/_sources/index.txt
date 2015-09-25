@@ -53,9 +53,7 @@ Hello, World!
 
 The simplest program. Put the following code in a file, then run with python:
 
-.. code-block:: python
-
-        print ("Hello, World!")
+    print ("Hello, World!")
 
 
 Yassss!
@@ -68,51 +66,12 @@ Variables
 
 A variable is something that is changable in the code.
 
-.. code-block:: python
-
-        x = 7
-        name = "Bob"
-
-These are variables defined in code, which can be overwritten later in the code.
-
-You can also get input and set the variable with that:
-
-.. code-block:: python
-
-    name = input("Enter your name: ")
+x = 7
 
 Function
 --------
 
 A function is a bit of code that you can run over and over.
-
-.. code-block:: python
-    
-    hello():
-        print("Hello, World!")
-
-Now if we write 'hello()' later in our code, it will execute whatever is in the function block.
-
-Indentation
------------
-
-In most languages, indentation is not enforced, but in practice, everyone uses it.
-
-In python, tabs matter. The function we had in the previous slide wouldn't work if it looked like this:
-
-.. code-block:: python
-    
-    hello():
-    print("Hello, World!")
-
-If you have multiple lines you want to run in one function, they both need to be indented:
-
-.. code-block:: python
-    
-    hello():
-        print("Hello, World!")
-        print("Hello " + name)
-
 
 Homework
 --------

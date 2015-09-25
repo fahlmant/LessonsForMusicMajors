@@ -49,7 +49,7 @@
 
 <h1>Programming in Python Made Easy</h1>
 
-<p>Contents: A seminar for Music majors</p>
+<p>A seminar for Music majors</p>
 <div class="toctree-wrapper compound">
 <ul class="simple">
 </ul>
@@ -121,8 +121,9 @@
 <h2>Hello, World!</h2>
 
 <p>The simplest program. Put the following code in a file, then run with python:</p>
-<q>
-print (&quot;Hello, World!&quot;)</q>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">print</span> <span class="p">(</span><span class="s">&quot;Hello, World!&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
 
 
 
@@ -138,12 +139,67 @@ print (&quot;Hello, World!&quot;)</q>
 
 
 </article>
+<article class="slide level-2" id="variables">
+
+<h2>Variables</h2>
+
+<p>A variable is something that is changable in the code.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="n">name</span> <span class="o">=</span> <span class="s">&quot;Bob&quot;</span>
+</pre></div>
+</div>
+<p>These are variables defined in code, which can be overwritten later in the code.</p>
+<p>You can also get input and set the variable with that:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&quot;Enter your name: &quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="function">
+
+<h2>Function</h2>
+
+<p>A function is a bit of code that you can run over and over.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">hello</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello, World!&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Now if we write 'hello()' later in our code, it will execute whatever is in the function block.</p>
+
+
+
+
+</article>
+<article class="slide level-2" id="indentation">
+
+<h2>Indentation</h2>
+
+<p>In most languages, indentation is not enforced, but in practice, everyone uses it.</p>
+<p>In python, tabs matter. The function we had in the previous slide wouldn't work if it looked like this:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">hello</span><span class="p">():</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello, World!&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>If you have multiple lines you want to run in one function, they both need to be indented:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">hello</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello, World!&quot;</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello &quot;</span> <span class="o">+</span> <span class="n">name</span><span class="p">)</span>
+</pre></div>
+</div>
+
+
+
+
+</article>
 <article class="slide level-2" id="homework">
 
 <h2>Homework</h2>
 
 <p>Write a Python program that takes the amount of coupons won as input and outputs
-how many candy bars and gumballs you can get. 10 coupons for a candy bar and. 3 coupons for a gumball. You prefer candy bars to gumballs, so you buy as many candy bars as you can first. Output how many candy bars and gumballs you get.</p>
+how many candy bars and gumballs you can get. 10 coupons for a candy bar and 3 coupons for a gumball. You prefer candy bars to gumballs, so you buy as many candy bars as you can first. Output how many candy bars and gumballs you get.</p>
 
 
 
