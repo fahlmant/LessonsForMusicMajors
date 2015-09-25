@@ -88,7 +88,7 @@ A function is a bit of code that you can run over and over.
 
 .. code-block:: python
     
-    hello():
+    def hello():
         print("Hello, World!")
 
 Now if we write 'hello()' later in our code, it will execute whatever is in the function block.
@@ -102,14 +102,14 @@ In python, tabs matter. The function we had in the previous slide wouldn't work 
 
 .. code-block:: python
     
-    hello():
+    def hello():
     print("Hello, World!")
 
 If you have multiple lines you want to run in one function, they both need to be indented:
 
 .. code-block:: python
     
-    hello():
+    def hello():
         print("Hello, World!")
         print("Hello " + name)
 
