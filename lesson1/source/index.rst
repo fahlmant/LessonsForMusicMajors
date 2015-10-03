@@ -6,7 +6,7 @@
 Programming in Python Made Easy
 ===============================
 
-A seminar for Music majors
+Python Basics
 
 .. toctree::
    :maxdepth: 2
