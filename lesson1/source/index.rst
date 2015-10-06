@@ -117,13 +117,6 @@ If you have multiple lines you want to run in one function, they both need to be
 Homework
 --------
 
-Write a Python program that takes the amount of coupons won as input and outputs
-how many candy bars and gumballs you can get. 10 coupons for a candy bar and 3 coupons for a gumball. You prefer candy bars to gumballs, so you buy as many candy bars as you can first. Output how many candy bars and gumballs you get.
-
-
-
-
-
-
-
-
+Create a program that has two functions. The first function takes a name and 
+prints "Hello, <name>". The second takes two numbers and adds them together.
+Then call both functions.
